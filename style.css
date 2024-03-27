@@ -1,0 +1,123 @@
+/* || Define global colors and fonts*/
+:root {
+    --color-black: #1C1C1C;
+    --color-pure-white: white;
+    --color-yellow: #FFD700;
+    --color-grey: #808080;
+    --font-size-base: 14px; /* 14px */
+}
+
+@font-face {
+    font-family: "ltalic";
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* || Define Typography, color and border */
+html {
+    font-size: var(--font-size-base); /* 14px */
+}
+
+main {
+    color: var(--color-black);
+    font-family: "ltalic";
+    background-color: var(--color-pure-white);
+    /* border setting */
+    border-radius: 1.42857rem; /* 20px */
+    border: 0.07143rem solid var(--color-black); /* 1px */
+    box-shadow: 0.57143rem 0.57143rem 0 black; /* 8px */
+}
+
+h1 {
+    font-size: 1.71429rem; /* 24px */
+}
+
+.description {
+    color: var(--color-grey);
+    font-size: 1.14286rem; /* 16px */
+}
+
+.blogimage {
+    border-radius: 0.71429rem; /* 10px */
+    margin: 1.71429rem; /* 24px */
+}
+
+.categoryTag {
+    background-color: var(--color-yellow);
+    border-radius: 0.28571rem; /* 4px */
+    text-align: center;
+}
+
+/* || Define Size and Layout*/
+body {
+    margin: 0;
+    background-color: var(--color-yellow);
+    height: 100vh;
+    width: 100vw;
+    /* place in the middle of body */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 27.42857rem; /* 384px */
+    height: 37.28571rem; /* 522px */
+}
+
+.blogimage {
+    width: auto;
+    height: auto;
+    margin: 1.71429rem; /* 24px */
+}
+
+.content {
+    margin: 0 1.71429rem 1.71429rem 1.71429rem; /* 24px */
+}
+
+.categoryTag {
+    margin: 0;
+    width: 5.78rem; /* 81px */
+    height: 2.07rem; /* 29px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.author {
+    width: 8.92857rem; /* 127px */
+    height: 2rem; /* 32px */
+    margin: 1.71429rem; /* 24px */
+    /* layout setting */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.85714rem; /* 12px */
+}
+
+.avatar {
+    width: 2rem; /* 32px */
+    height: 2rem; /* 32px */
+}
+
+/* Add action styles*/
+h1:active {
+    color: var(--color-yellow);
+}
+
+main:active {
+    box-shadow: 16px 16px 0 black;
+}
