@@ -15,7 +15,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -31,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lij110397/blog-preview-component)
-- Live Site URL: [Add live site URL here](https://lij110397.github.io/blog-preview-component/)
+- Solution URL: [https://github.com/lij110397/blog-preview-component]
+- Live Site URL: [https://lij110397.github.io/blog-preview-component/]
 
 ## My process
 
@@ -50,12 +49,13 @@ Users should be able to:
 - Check figma's library to include all defined colors and typography.
 
 **2. How to place the component in the middle of its parent container**
-Make the parent container a flexbox and use align-items and justify-content.
+- Make the parent container a flexbox and use align-items and justify-content.
 ```css
 display: flex;
 align-items: center;
 justify-content: center;
 ```
+
 **3. Variable font and static font**
 - Variable font includes different font styles and font weights of the font. In this case, the definition of font family decreased as we can define only one variable font and change its styles and weigths accordingly.
 - Static font means we need to create font family for every variable of the font and give them different names.
@@ -65,7 +65,6 @@ justify-content: center;
 **1.How to reduce the font size in mobile layout without using media queries?**
 Confusing and just don't know the solution.
 
-**2.**
 
 ### Useful resources
 
